@@ -221,15 +221,15 @@ export default function MyWork() {
             <div data-aos="fade-up" data-aos-duration="3000" className="flex flex-col items-center">
               <div className="w-24 h-24 md:w-44 md:h-44 relative mb-4">
                 <Image
-                  src="/p_pie.jpg"
+                  src="/Lio2.png"
                   alt="Member 7"
                   fill
                   className="rounded-full object-cover border-4 border-white"
                 />
               </div>
               <div className="text-center">
-                <p className="text-white text-xl font-semibold">Pie</p>
-                <p className="text-gray-400">ตำแหน่ง MooDeng</p>
+                <p className="text-white text-xl font-semibold">Lio</p>
+                <p className="text-gray-400">ตำแหน่ง ไม่บอก</p>
                 <p className="text-gray-400">000-000-0000</p>
               </div>
             </div>
@@ -246,7 +246,7 @@ export default function MyWork() {
               <div className="text-center">
                 <p className="text-white text-xl font-semibold">Bom</p>
                 <p className="text-gray-400">ตำแหน่ง แย่ละ</p>
-                <p className="text-gray-400">000-000-0000</p>
+                <p className="text-gray-400">096-165-0618</p>
               </div>
             </div>
           </div>
@@ -284,15 +284,15 @@ export default function MyWork() {
             <div data-aos="fade-left" data-aos-duration="3000" className="flex flex-col items-center">
               <div className="w-24 h-24 md:w-44 md:h-44 relative mb-4">
                 <Image
-                  src="/Lio2.png"
+                  src="/p_pie.jpg"
                   alt="Member 7"
                   fill
                   className="rounded-full object-cover border-4 border-white"
                 />
               </div>
               <div className="text-center">
-                <p className="text-white text-xl font-semibold">Lio</p>
-                <p className="text-gray-400">ตำแหน่ง ไม่บอก</p>
+                <p className="text-white text-xl font-semibold">Pie</p>
+                <p className="text-gray-400">ตำแหน่ง MooDeng</p>
                 <p className="text-gray-400">093-830-4299</p>
               </div>
             </div>
