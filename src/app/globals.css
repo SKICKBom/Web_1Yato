@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-main {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+  padding: 5px 15px ;
+  border-radius: 50px;
+  background: #ffffff;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+}
+
+.btn-main:hover {
+  background: #ffffff;
+}
+
+.btn-main > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-main:hover svg {
+  transform: translateX(5px);
+}
+
+.btn-main:active {
+  transform: scale(0.95);
+}
